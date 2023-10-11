@@ -65,13 +65,14 @@ class LineItemsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Используйте обратные вызовы для совместного использования 
+    # общих настроек или ограничений между действиями.
     def set_line_item
       @line_item = LineItem.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
+    # Разрешите использовать только список доверенных параметров.
     def line_item_params
-      params.require(:line_item).permit(:product_id, :cart_id)
+      params.require(:line_item).permit(:product_id)
     end
 end
