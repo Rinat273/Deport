@@ -8,7 +8,7 @@ en:
         separator: "."
         delimiter: ","
         format:    "%u%n"
-        
+
   layouts:
     application:
       title:       "The Pragmatic Bookshelf"
@@ -28,3 +28,28 @@ en:
       title:       "Your Cart"
       empty:       "Empty cart"
       checkout:    "Checkout"
+
+  orders:
+    new:
+      legend:       "Please Enter Your Details"
+    form:
+      name:         "Name"
+      address_html: "Address"
+      email:        "E-mail"
+      pay_type:     "Pay with"
+      pay_prompt_html: "Select a payment method"
+      submit:       "Place Order"
+      pay_types:
+        "Check":           "Check"
+        "Credit card":     "Credit Card"
+        "Purchase order":  "Purchase Order"
+    check:
+      routing_number: "Routing #"
+      account_number: "Account #"
+    cc:
+      cc_number: "CC #"
+      expiration_date: "Expiry"
+    po:
+      po_number: "PO #"
+
+  thanks:        "Thank you for your order"
