@@ -1,0 +1,30 @@
+ru:
+
+  number:
+    currency:
+      format:
+        unit:      "rub"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%n&nbsp;%u"
+
+  layouts: 
+    application:
+      title: "Книжная полка Прагматика" 
+      home: "Главная"
+      questions: "Вопросы"
+      news: "Новости"
+      contact: "Контакты"
+
+  store:
+    index:
+      title_html:  "Ваш прагматичный каталог"
+    product:
+      add_html:    "Добавить в корзину"
+
+  carts:
+    cart:
+      title:       "Ваша корзина"
+      empty:       "Пустая корзина"
+      checkout:    "Заказать"
